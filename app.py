@@ -3,6 +3,7 @@ def fizz_buzz(number1, number2):
         FizzBuzzDict = {
             "fizz" : multiple(number, 3),
             "buzz" : multiple(number, 5),
+            "boom" : multiple(number, 7),
             "bam" : multiple(number, 12)
         }
         myString = make_string(FizzBuzzDict)
