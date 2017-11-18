@@ -10,7 +10,7 @@ def fizz_buzz(number1, number2):
         if(myString != ""):
             print(myString)
         else:
-            print("not a multiple")
+            print(number)
 
 def multiple(number, multiple):
     if(number % multiple == 0):
